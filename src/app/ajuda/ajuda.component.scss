@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root {
+  --primarypurple: #dd741e; 
+  --primarysalmon: #ffffdd; 
+  --secondarysalmon: #fff2eb; 
+
+  --primaryfont: "Noto Serif", serif; 
+}
+
+main {
+  text-align: center;
+}
+
+p.subtext {
+  font-size: 2em;
+  margin: 30px 30px;
+  text-align: start;
+}
+
+nav {
+  text-align: left;
+}
+
+main > section {
+  padding-bottom: 50px;
+}
+
+main > section > ul {
+  /* Declaração para montagem da lista de funcionalidades com um design limpo e acessível */
+  width: 550px;
+  padding: 25px;
+  color: #ffff;
+  background-color: var(--primarypurple);
+  text-align: left;
+  font-size: 1.5em;
+  margin: auto;
+  border-radius: 10px;
+}
+
+ul li {
+  margin: 20px 20px;
+}
+
+section img {
+  width: 60%;
+  height: auto;
+}

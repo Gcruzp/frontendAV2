@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nassauinvestiments</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body onresize="mudarTamanho()">
+    <header>
+    </header>
+    <main class="coroamain">
+      <section *ngIf="posts && posts.length > 0">
+        <h1>Fundos Imobiliários</h1>
+        <p class="subtext">
+          Os Fundos Imobiliários são veículos de investimento coletivo que aplicam recursos em empreendimentos
+          do setor imobiliário, como edifícios comerciais, shoppings e empreendimentos residenciais. Os investidores recebem rendimentos provenientes dos aluguéis e valorização dos imóveis.
+        </p>
+        <ul>
+          <p class="caption">API Teste:</p>
+          <li *ngFor="let post of posts">{{ post.title }}</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

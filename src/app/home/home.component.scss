@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primarypurple: #845EC2; 
+  --primarysalmon: #FFB677; 
+  --secondarysalmon: #FFDDB3; 
+
+  --primaryfont: "Montserrat", sans-serif; 
+}
+
+main {
+  text-align: justify;
+}
+
+div.withAside {
+  justify-content: center;
+  padding: 20px;
+}
+
+div.withAside img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.opa {
+  display: flex;
+  justify-content: space-around;
+}
+
+img#img2 {
+  margin-top: 30px;
+  width: 100%;
+  display: block;
+}
+
+div#asidetext {
+  align-self: center;
+  margin-top: 30px;
+}
+
+p#titlefromaside {
+  font-size: 3.5em;
+  padding: 10px;
+  color: var(--primarypurple);
+}
+
+p#subtitlefromaside {
+  font-size: 1.5em;
+  padding: 10px;
+  color: var(--primarysalmon);
+}
+
+div#asidetext > p#textfromaside {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #555;
+}
